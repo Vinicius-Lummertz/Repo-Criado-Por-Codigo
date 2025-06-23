@@ -1,5 +1,12 @@
-```css
-/* main.css */
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Site</title>
+    <style>
+        /* main.css */
 
 body {
   font-family: 'Arial', sans-serif;
@@ -73,5 +80,19 @@ button:hover {
   }
 
 }
-
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <a href="#">Home</a>
+        <a href="#">Sobre</a>
+        <a href="#">Contato</a>
+    </nav>
+    <div class="container">
+        <h1>Bem-vindo ao meu site!</h1>
+        <p>Este é um exemplo de site criado com HTML e CSS.</p>
+        <button>Clique aqui</button>
+    </div>
+</body>
+</html>
 ```
