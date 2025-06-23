@@ -1,9 +1,48 @@
 /* Customização da navbar */
+.navbar {
+  background-color: #f0f0f0;
+  padding: 20px;
+}
 
 /* Customização do footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
 
 /* Customização de textos */
+body {
+  font-family: sans-serif;
+  line-height: 1.6;
+}
+
+h1, h2, h3 {
+  font-weight: bold;
+}
+
+p {
+  margin-bottom: 1em;
+}
 
 /* Customização de botões */
+button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
 
 /* Customização de outros elementos */
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+}
